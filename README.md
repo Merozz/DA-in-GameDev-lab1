@@ -53,6 +53,8 @@ MonoBehaviour
 
 ```
 
+![Картинка](HelloWorldConsole.JPG)
+
 
 ## Задание 3
 ### Оформить отчет в виде документации на github (markdown-разметка).
