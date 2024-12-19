@@ -21,19 +21,6 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-Структура отчета
-
-- Данные о работе: название работы, фио, группа, выполненные задания.
-- Цель работы.
-- Задание 1.
-- Код реализации выполнения задания. Визуализация результатов выполнения (если применимо).
-- Задание 2.
-- Код реализации выполнения задания. Визуализация результатов выполнения (если применимо).
-- Задание 3.
-- Код реализации выполнения задания. Визуализация результатов выполнения (если применимо).
-- Выводы.
-- ✨Magic ✨
-
 ## Цель работы
 Установить необходимое программное обеспечение, которое пригодится для создания интеллектуальных моделей на Python. Рассмотреть процесс установки игрового движка Unity для разработки игр.
 
@@ -41,121 +28,40 @@
 ### Написать программу Hello World на Python с запуском в Jupiter Notebook.
 Ход работы:
 - Установить jupyter notebook, создать папку для работ и файл для текущей работы, вывести на python Hello World!
-```json
-{
- "cells": [
-  {
-   "cell_type": "code",
-   "execution_count": 1,
-   "id": "290ea0da-0015-4414-9769-9119e9b57a84",
-   "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "Hello world!\n"
-     ]
-    }
-   ],
-   "source": [
-    "print(\"Hello world!\")"
-   ]
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "Python 3 (ipykernel)",
-   "language": "python",
-   "name": "python3"
-  },
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 3
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython3",
-   "version": "3.12.7"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 5
-}
+```py
+print("Hello world!")
 ```
-  
 (https://github.com/Merozz/DA-in-GameDev-lab1/blob/fba97b94e0afee779b5777339ae91a454a26c211/HelloWorld.ipynb)
 
 ## Задание 2
 ### Написать программу Hello World на C# с запуском на Unity.
 
+Создал проект, в нём пустой объект и применил к нему скрипт, с кодом:
 
+```csharp
 
-```py
+using UnityEngine;
 
-import ScriptEnv
-ScriptEnv.Initialize("Ansoft.ElectronicsDesktop")
-oDesktop.RestoreWindow()
-oProject = oDesktop.NewProject()
-oProject.Rename("C:/Users/denisov.dv/Documents/Ansoft/SphereDIffraction.aedt", True)
-oProject.InsertDesign("HFSS", "HFSSDesign1", "HFSS Terminal Network", "")
-oDesign = oProject.SetActiveDesign("HFSSDesign1")
-oEditor = oDesign.SetActiveEditor("3D Modeler")
-oEditor.CreateSphere(
-	[
-		"NAME:SphereParameters",
-		"XCenter:="		, "0mm",
-		"YCenter:="		, "0mm",
-		"ZCenter:="		, "0mm",
-		"Radius:="		, "1.0770329614269mm"
-	], 
-)
+public class HelloWorld :
+MonoBehaviour
+{
+    void Start()
+    {
+        Debug.Log("Hello World!");
+    }
+}
 
 ```
+
 
 ## Задание 3
-### Какова роль параметра Lr? Ответьте на вопрос, приведите пример выполнения кода, который подтверждает ваш ответ. В качестве эксперимента можете изменить значение параметра.
+### Оформить отчет в виде документации на github (markdown-разметка).
 
-- Перечисленные в этом туториале действия могут быть выполнены запуском на исполнение скрипт-файла, доступного [в репозитории](https://github.com/Den1sovDm1triy/hfss-scripting/blob/main/ScreatingSphereInAEDT.py).
-- Для запуска скрипт-файла откройте Ansys Electronics Desktop. Перейдите во вкладку [Automation] - [Run Script] - [Выберите файл с именем ScreatingSphereInAEDT.py из репозитория].
-
-```py
-
-import ScriptEnv
-ScriptEnv.Initialize("Ansoft.ElectronicsDesktop")
-oDesktop.RestoreWindow()
-oProject = oDesktop.NewProject()
-oProject.Rename("C:/Users/denisov.dv/Documents/Ansoft/SphereDIffraction.aedt", True)
-oProject.InsertDesign("HFSS", "HFSSDesign1", "HFSS Terminal Network", "")
-oDesign = oProject.SetActiveDesign("HFSSDesign1")
-oEditor = oDesign.SetActiveEditor("3D Modeler")
-oEditor.CreateSphere(
-	[
-		"NAME:SphereParameters",
-		"XCenter:="		, "0mm",
-		"YCenter:="		, "0mm",
-		"ZCenter:="		, "0mm",
-		"Radius:="		, "1.0770329614269mm"
-	], 
-)
-
-```
+Этот файл является результатом выполнения третьего задания.
 
 ## Выводы
 
-Абзац умных слов о том, что было сделано и что было узнано.
-
-| Plugin | README |
-| ------ | ------ |
-| Dropbox | [plugins/dropbox/README.md][PlDb] |
-| GitHub | [plugins/github/README.md][PlGh] |
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
-| OneDrive | [plugins/onedrive/README.md][PlOd] |
-| Medium | [plugins/medium/README.md][PlMe] |
-| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
+Установил программное обеспечение необходимое для прохождения курса, провёл пробу пера для jupyter notebook и unity.
 
 ## Powered by
 
