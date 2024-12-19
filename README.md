@@ -41,8 +41,53 @@
 ### Написать программу Hello World на Python с запуском в Jupiter Notebook.
 Ход работы:
 - Установить jupyter notebook, создать папку для работ и файл для текущей работы, вывести на python Hello World!
+```json
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "290ea0da-0015-4414-9769-9119e9b57a84",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello world!\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Hello world!\")"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
+```
   
-https://github.com/Merozz/DA-in-GameDev-lab1/blob/fba97b94e0afee779b5777339ae91a454a26c211/HelloWorld.ipynb
+(https://github.com/Merozz/DA-in-GameDev-lab1/blob/fba97b94e0afee779b5777339ae91a454a26c211/HelloWorld.ipynb)
 
 ## Задание 2
 ### Написать программу Hello World на C# с запуском на Unity.
